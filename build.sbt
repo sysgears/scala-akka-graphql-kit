@@ -40,7 +40,9 @@ libraryDependencies ++= Seq(
   "com.github.jurajburian" %% "mailer" % "1.2.3",
   "org.clapper" %% "classutil" % "1.3.0",
 
-  "com.pauldijou" %% "jwt-core" % "0.19.0"
+  "com.pauldijou" %% "jwt-core" % "0.19.0",
+
+  "com.nulab-inc" %% "scala-oauth2-core" % "1.3.0"
 )
 
 parallelExecution in test := false
